@@ -355,7 +355,7 @@ async function init(){
   }
   if (state.backend.mode === "demo"){
     const bn = $("banner"); bn.hidden = false;
-    bn.textContent = "Demo-Modus: Daten werden nur auf diesem Gerät gespeichert. Für alle Kolleg:innen bitte Firebase einrichten (siehe README).";
+    bn.textContent = "Demo-Modus: DIE APP FUNKTIONIERT NICHT! BITTE NORMAL EINBUCHEN! DEIN PARKPLATZ KANN NICHT GESPEICHERT WERDEN!";
   }
   state.backend.subscribe(d => { state.data = d; render(); });
   render();
